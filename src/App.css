@@ -1,0 +1,44 @@
+.App {
+ 
+  background-image: url("https://th.bing.com/th/id/R.56fd3299f93d62e7cda275babb1102e2?rik=8SZL6ex6AP7BPw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-nTDaB_HKBBo%2fTkZpYH6dVhI%2fAAAAAAAAAEw%2fMmVJCSXw404%2fs1600%2fgreen-background-image.jpg&ehk=iuzvvs2Dt3JoXybRiykpmIzQ9sOTWlJ5idnruZ0ht0Y%3d&risl=&pid=ImgRaw&r=0"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
